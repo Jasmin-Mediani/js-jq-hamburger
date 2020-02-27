@@ -1,7 +1,7 @@
 $(".fa-bars").click(function () {
-    $(".hamburger-menu").toggle({ "display": "block" });
+    $(".hamburger-menu").toggle(500);
 });
 
 $(".fa-times").click(function () {
-    $(".hamburger-menu").toggle({ "display": "hidden" });
+    $(".hamburger-menu").toggle(500);
 });
